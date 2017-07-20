@@ -160,6 +160,7 @@ html {
 #projects {
     margin-top: 3rem;
     margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .webpage p {
@@ -179,6 +180,7 @@ html {
 
 .webpage h3 {
   color: rgb(155,24,53);
+  font-weight: 700;
 }
 
 .webpage a:hover {
@@ -189,12 +191,17 @@ html {
   font-style: italic;
 }
 
+.image-container:hover {
+  border: 3px solid rgb(155,24,53);
+}
+
 /* Footer */
 
 .footer {
   text-align: center;
   background-color: rgb(105,156,181);
   color: white;
+  font-family: "open sans", sans-serif;
 }
 
 .footer p a {
