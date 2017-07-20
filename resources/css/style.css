@@ -1,0 +1,133 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Header */
+
+.heading {
+  text-align: center;
+  background-color: rgb(105,156,181);
+  color: white;
+  font-family: "open sans", sans-serif;
+}
+
+.heading h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.heading h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.heading h2 a {
+  color: white !important;
+}
+
+.heading h2 a:hover {
+  color: rgb(226,232,133) !important;
+}
+
+.social {
+  margin-bottom: 0.75rem;
+}
+
+.fa-linkedin-square {
+  color: white;
+}
+
+.fa-linkedin-square:hover {
+  color: rgb(226,232,133) !important;
+}
+
+.heading p {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.heading p a {
+  color: white;
+}
+
+.heading p a:hover {
+  color: rgb(226,232,133) !important;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  height: 30rem;
+  color: black;
+  border: none;
+  font-family: "open sans";
+  background-color: rgb(105,156,181);
+
+}
+
+.jumbotron p {
+  font-size: 2rem;
+  max-width: 100%;
+}
+
+.jumbotron h1 {
+  margin-top: 15rem;
+}
+
+.jump {
+  background-image: url("../images/jumpstart.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.colmar {
+  background-image: url("../images/colmar.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.foto {
+  background-image: url("../images/fotomatic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.optics {
+  background-image: url("../images/tortoise.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.secret {
+  background-image: url("../images/secret.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tea {
+  background-image: url("../images/tea.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
