@@ -1,7 +1,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
@@ -31,6 +30,7 @@ html {
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 1rem;
+
 }
 
 .heading h2 a {
@@ -66,6 +66,13 @@ html {
   color: rgb(226,232,133) !important;
 }
 
+@media only screen and (max-width: 768px) {
+  .heading h2 {
+    font-size: 1.5rem;
+  }
+
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -77,7 +84,6 @@ html {
   border: none;
   font-family: "open sans";
   background-color: rgb(105,156,181);
-
 }
 
 .jumbotron p {
@@ -130,4 +136,71 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron {
+  height: 28rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .jumbotron {
+  height: 25rem;
+  }
+}
+
+#buffer {
+  height: 1.5rem;
+  background-color: rgb(105,156,181);
+}
+
+/* Website Projects */
+
+#projects {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.webpage p {
+  margin-bottom: 2.5rem;
+}
+
+.image-container {
+  overflow: hidden;
+  max-width: 100%;
+  height: 10rem;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+.webpage h3 {
+  color: rgb(155,24,53);
+}
+
+.webpage a:hover {
+  color: rgb(155,24,53);
+}
+
+.webpage p {
+  font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  background-color: rgb(105,156,181);
+  color: white;
+}
+
+.footer p a {
+  color: white;
+}
+
+.footer p a:hover {
+  color: rgb(226,232,133) !important;
 }
