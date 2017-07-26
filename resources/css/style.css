@@ -41,6 +41,20 @@ html {
   color: rgb(226,232,133) !important;
 }
 
+#google {
+  text-decoration: none;
+  color: rgb(155,24,53) !important;
+}
+
+#google a {
+  color: rgb(155,24,53) !important;
+  font-weight: bold; 
+}
+
+#google a:hover {
+  color: rgb(226,232,133) !important;
+}
+
 .social {
   margin-bottom: 0.75rem;
 }
@@ -158,9 +172,16 @@ html {
 /* Website Projects */
 
 #projects {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     font-family: 'Open Sans', sans-serif;
+}
+
+#projects h2 {
+  color: rgb(155,24,53);
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .webpage p {
